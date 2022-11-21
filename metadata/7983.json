@@ -1,0 +1,58 @@
+{
+  "name": "Jeweled Falcon #7983",
+  "description": "9,990 hand drawn generative art NFTs & 10 1/1 Ultimate Edition NFTsJeweled Falcon Club has been created by Forevercorp Digital - part of the Forevercorp group of companies positively disrupting, innovating & developing the markets for investment in diamonds & other gemstones and precious metals.Holders of Jeweled Falcon Club NFTs automatically become members of the Club.The Jeweled Falcon Club provides exclusive benefits & rewards to members including access to a metaverse diamond & gemstone atelier to be created by Forevercorp Digital and loyalty rewards available through Forevercorp Digital's revenue-linked sponsorship of the club. Full details are set out in the litepaper & roadmap at www.jeweledfalconclub.com",
+  "external_url": "jeweledfalconclub.com",
+  "image": "7983.jpeg",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Purple Oil"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Pearlescent"
+    },
+    {
+      "trait_type": "Beak",
+      "value": "White Gold"
+    },
+    {
+      "trait_type": "Head",
+      "value": "Faberge Purple Hood"
+    },
+    {
+      "trait_type": "Wings",
+      "value": "Blue"
+    },
+    {
+      "trait_type": "Arm",
+      "value": "Brown"
+    },
+    {
+      "trait_type": "Glove",
+      "value": "Gold Trim"
+    },
+    {
+      "trait_type": "Talons",
+      "value": "Purple"
+    },
+    {
+      "trait_type": "Claws",
+      "value": "Natural"
+    },
+    {
+      "trait_type": "Anklets",
+      "value": "Leather and Diamonds"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "7983.jpeg",
+        "type": "image/jpeg"
+      }
+    ],
+    "creators": ["Forevercorp Digital Pty Ltd"]
+  },
+  
+}

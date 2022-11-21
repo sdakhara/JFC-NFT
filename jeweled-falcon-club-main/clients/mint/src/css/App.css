@@ -1,0 +1,159 @@
+html,
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+}
+
+.total-text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.main-bod {
+  position: relative;
+}
+
+img.bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+
+}
+
+.card {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  border: none !important;
+  border-radius: 15px !important;
+}
+
+img.main-logo {
+  max-width: 300px;
+  filter: invert(1);
+}
+
+.top-nav {
+  background: none !important;
+}
+
+.footer-nav {
+  background: none !important;
+}
+
+.footer-nav .navbar-text {
+  color: #fff !important;
+}
+
+.footer-nav a {
+  color: #fff !important;
+}
+
+.form-control {
+  background: none !important;
+  border-radius: 0 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-bottom: 1px solid #fff !important;
+  color: #fff !important;
+  box-shadow: 0px 0px 0px !important;
+}
+
+.badge.bg-primary {
+  background-color: rgb(12, 205, 203) !important;
+}
+
+/* progress bar */
+.progress {
+  background-color: rgba(105, 26, 172, 0.5) !important;
+}
+
+.progress-bar {
+  background-color: rgb(105, 26, 172) !important;
+  font-weight: bold;
+}
+/**/
+
+button {
+  border-radius: 9999px !important;
+}
+
+/* mint button */
+#btn-mint {
+  border: 1px solid #fff !important;
+  background: none !important;
+}
+
+#btn-mint:hover {
+  background-color: #fff !important;
+  color: #000;
+}
+/**/
+
+/* connect button */
+#btn-connect {
+  border: 1px solid #fff !important;
+  background: none !important;
+}
+
+#btn-connect:hover {
+  background-color: #fff !important;
+  color: #000;
+}
+/**/
+
+.navbar-light .navbar-toggler {
+  background-color: #fff !important;
+}
+
+hr {
+  background-color: #fff !important;
+  opacity: 1 !important;
+}
+
+::placeholder {
+  color: #fff !important;
+  opacity: 0.6 !important;
+}
+
+@media all and (max-width:767px) {
+  .mob-block-btn {
+    width: 100%;
+    display:block;
+    margin-top: 1rem;
+  }
+}   
+
+/**
+ * until https://github.com/facebook/create-react-app/issues/11771
+ * gets fixed, let's hide the problem and not address it
+ */
+body > iframe[style*="2147483647"]:not([id="webpack-dev-server-client-overlay"]) {
+  display: none;
+}
